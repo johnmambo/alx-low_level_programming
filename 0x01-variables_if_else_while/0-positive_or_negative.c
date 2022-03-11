@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main-entry point
-*take random number and returns if positive or negative
-*return 0
+* main - main block
+* Return: 0
 */
 int main(void)
 {
