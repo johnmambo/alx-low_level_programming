@@ -2,8 +2,7 @@
 #include <stdlib.h>
 /**
 * main - main block
-*
-*
+* Description: Write a program that prints all possible
 * Return: 0
 */
 int main(void)
@@ -17,7 +16,7 @@ d = 0;
 while (d < 10)
 {
 c = 0;
-while (c < 0)
+while (c < 10)
 {
 if (c != d && d != e && e < d && d < c)
 {
@@ -39,3 +38,4 @@ e++;
 putchar('\n');
 return (0);
 }
+
