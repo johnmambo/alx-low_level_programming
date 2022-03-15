@@ -1,4 +1,4 @@
-#define MAIN.H
+#define  MAIN.H  
 
 /* _putchar.c */
 int _putchar(char);
