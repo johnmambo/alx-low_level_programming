@@ -8,7 +8,7 @@
 */
 int largest_number(int a, int b, int c)
 {
-int largest;
+int a, b, c, largest;
 if (a >= b && a >= c)
 {
 largest = a;
@@ -20,5 +20,5 @@ else
 {
 largest = c;
 }
-return ((printf("%d is the largest number\n", largest)));
+return (0);
 }
