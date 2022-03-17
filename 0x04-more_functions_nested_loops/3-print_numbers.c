@@ -13,6 +13,6 @@ while (n =< 9)
 putchar('0' + n);
 n++;
 }
-putchar('\n");
+putchar('\n');
 return (0);
 }
