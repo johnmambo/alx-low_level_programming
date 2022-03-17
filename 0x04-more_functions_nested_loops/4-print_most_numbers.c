@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * print_most_numbers - prints numbers
@@ -18,4 +18,6 @@ void print_most_numbers(void)
 
 		n++;
 	}
+	_putchar('\n');
+
 }
