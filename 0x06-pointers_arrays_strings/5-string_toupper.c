@@ -1,10 +1,9 @@
 #include "main.h"
 /**
  * string_toupper - changes all lowercase letters to upper in a string
- * @str: string to return
  * Return: null
  */
-char *string_toupper(char *str)
+char *string_toupper(char *)
 {
 	int i;
 
@@ -15,5 +14,5 @@ char *string_toupper(char *str)
 			str[i] = str[i] - 32
 		}
 	}
-	return (str);
+	return (*);
 }
